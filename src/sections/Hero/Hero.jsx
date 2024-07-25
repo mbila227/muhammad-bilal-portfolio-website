@@ -38,7 +38,7 @@ function Hero() {
             </h1> 
             <h2>Backend Developer</h2> 
             <span>
-                <a href="https://github.com/" target="_blank">
+                <a href="https://github.com/mbila227" target="_blank">
                 <img src={githubIcon} alt="Github icon" />
                 </a>
                 <a href="https://linkedin.com/in/muhammad-bilal-221609231" target="_blank">
