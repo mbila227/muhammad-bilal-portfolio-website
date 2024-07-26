@@ -1,0 +1,65 @@
+/* ExperiencesStyles.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: left; /* Left-align text within each element */
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--background-color); /* Apply background color */
+}
+
+.sectionTitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-color); /* Apply text color */
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center each experience horizontally */
+    max-width: 800px; /* Limit width to make it look better on large screens */
+    border: 1px solid #ddd; /* Optional: add a border to each experience item */
+    border-radius: 8px; /* Optional: round corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better look */
+    background-color: var(--background-color); /* Apply background color */
+}
+
+.experience h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--text-color); /* Apply text color */
+}
+
+.experience h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    background-color: var(--background-color); /* Apply background color */
+    color: var(--text-color); /* Apply text color */
+    margin-bottom: 10px;
+}
+
+.experience p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    background-color: var(--background-color); /* Apply background color */
+    color: var(--text-color); /* Apply text color */
+    margin-bottom: 10px;
+}
+
+.experience ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9rem;
+    background-color: var(--background-color); /* Apply background color */
+    color: var(--text-color); /* Apply text color */
+}
+
+.experience li {
+    margin-bottom: 5px;
+}
