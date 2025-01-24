@@ -15,8 +15,8 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Java" />
         <SkillList src={checkMarkIcon} skill="Python" />
         <SkillList src={checkMarkIcon} skill="C" />
-        <SkillList src={checkMarkIcon} skill="SQL" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
+        <SkillList src={checkMarkIcon} skill="PostgreSQL" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -28,7 +28,7 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
-        <SkillList src={checkMarkIcon} skill="Spring" />
+        <SkillList src={checkMarkIcon} skill="Spring Boot" />
         <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="Postman" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
